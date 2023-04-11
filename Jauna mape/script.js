@@ -30,8 +30,15 @@ const Divide = (cipars1, cipars2) => {
 }
 
 plusins.addEventListener('click', () => {
-    console.log("RAAAAHHHHHHHHH😋")
+    
+    answer.textContent = (Add
+        (parseInt(imputins1.value),parseInt(imputins2.value)))
+
 })
 
+imputins1.value = ""
+imputins2.value = ""
+
+console.log("RAAAAHHHHHHHHH😋")
 console.log(Add(firstValue,secondValue))
 console.log(Multiply(firstValue,secondValue))
