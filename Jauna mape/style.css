@@ -3,5 +3,21 @@
 }
 
 html{
-    background-color: #FFFFF2;
+    background-color: #8a7ab1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+
+.input{
+    font-size: 32px;
+    width: 400px;
+    height: 100px;
+    border: 5px solid #947faf;
+    border-radius: 8px;
+    outline: none;
 }
